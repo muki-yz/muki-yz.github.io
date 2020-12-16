@@ -1,0 +1,11 @@
+@import "css dosyaları/navbarr.css";
+
+body {
+    background-color:#233042;
+    color: aliceblue;
+}
+.welcome{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align:center;
+}
