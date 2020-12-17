@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="media/favicon.ico" type="image/icon type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/datas/feedbacks.json"></script>
+    <script type="text/javascript" src="/index.js"></script>
     <title>Muki</title>
+    <!--<script src="index.js"></script>-->
 </head>
 <body>
     <div>
@@ -37,6 +40,11 @@
 
             </p>
         </div>
+        <div class="feedback">
+            <label class="kutusu" for="paragraph_text">Düşüncelerinizi yazın!</label>
+            <textarea class="kutusu" id="gonder" name="paragraph_text" cols="40" rows="5">...</textarea>
+            <button onclick="sendFeedback()" >Gönder</button>
+        </div>
         <div class="footer">
             <footer>
                 <h3>Benimle iletişime geç!</h3>
@@ -50,5 +58,9 @@
             </footer>
         </div>
     </div>
+    <div class="denemee">
+        <p hidden>This paragraph should be hidden.</p>
+    </div>
+    
 </body>
 </html>
